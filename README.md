@@ -19,6 +19,7 @@
             <li><a href="bs09.html">Harjutus 09</a></li>
             <li><a href="bsKt1.html">KT</a></li>
             <li><a href="bsKodutoo.html">KodutooNr.4</a></li>
+            <li><a href="bsKodutoo1.html">KodutooNr.5</a></li>
         </ul>
     
 
