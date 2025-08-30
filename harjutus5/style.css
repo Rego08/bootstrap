@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h4, h1, h3 {
+    font-weight: normal;
+}
+
+header {
+    /* background-image:url(img.png); */
+    height: 400px;
+    color: white;
+    container: flex;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+}
+
+.heading, nav {
+    position: absolute;
+}
+nav {
+    right:0;
+    bottom:0;
+    padding: 45px;
+}
+
+.heading {
+    bottom:0;
+    padding: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.content {
+    justify-content: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-weight: normal;
+}
+
+.content p {
+    margin: 40px 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.liha {
+    width: 200px;
+    margin: 10px;
+}
+
+.liha img {
+    width: 100%;
+}
+
+.liha h3 {
+    color: #38a0d9;
+    margin: 15px 0;
+}
+
+p {
+    color: gray;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #2319b6;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js-count-particles{
+    font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+    -webkit-user-select: none;
+}
+
+#stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles{
+    border-radius: 0 0 3px 3px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
